@@ -31,6 +31,8 @@ function conection(status) {
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
+  //git config --global user.name "Uglybeard94"
+  //git config --global user.email "jhernandomelosanabria@gmailcom"
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
   // Si "idioma" es "mandarin", devuelve "Ni Hao!"
   // Si "idioma" es "ingles", devuelve "Hello!"
