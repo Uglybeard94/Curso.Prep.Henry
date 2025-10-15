@@ -39,13 +39,28 @@ function conection(status) {
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
-  //git config --global user.name "Uglybeard94"
-  //git config --global user.email "jhernandomelosanabria@gmailcom"
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
   // Si "idioma" es "mandarin", devuelve "Ni Hao!"
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  switch (idioma) {
+    case 'aleman':
+      return 'Guten Tag!'; // Código si expresion === valor1
+      break;
+
+    case 'mandarin':
+      return 'Ni Hao!'; // Código si expresion === valor2
+      break;
+
+    case 'ingles':
+      return 'Hello!';
+      break;
+
+    default:
+      return 'Hola!';
+    // Código si ninguno de los casos anteriores coincide
+  }
 }
 
 function colors(color) {
@@ -56,6 +71,26 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+  switch (color) {
+    case 'blue':
+      return 'This is blue'; // Código si expresion === valor1
+      break;
+
+    case 'red':
+      return 'This is red'; // Código si expresion === valor2
+      break;
+
+    case 'green':
+      return 'This is green';
+      break;
+
+    case 'orange':
+      return 'This is orange';
+      break;
+    default:
+      return 'Color not found';
+    // Código si ninguno de los casos anteriores coincide
+  }
 }
 
 function esDiezOCinco(numero) {
